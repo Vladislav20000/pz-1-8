@@ -1,0 +1,241 @@
+.virsta-comics .virsta-comics-dc, .virsta-comics .virsta-comics-marvel {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.virsta-comics .virsta-comics-dc a:hover:after, .virsta-comics .virsta-comics-marvel a:hover:after {
+  opacity: 1;
+}
+.virsta-comics .virsta-comics-dc img, .virsta-comics .virsta-comics-marvel img {
+  width: 30vw;
+}
+.virsta-comics .virsta-comics-dc span, .virsta-comics .virsta-comics-marvel span {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.virsta-comics .virsta-comics-dc span:hover, .virsta-comics .virsta-comics-marvel span:hover {
+  background: rgba(0, 0, 0, 0);
+}
+
+.virsta-comics, .virsta-menu form, .virsta-menu ul, .virsta-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.virsta-header {
+  background: black;
+  height: 8vh;
+}
+
+.virsta-header-text {
+  background: url("../img/hdrezka-logo.png") no-repeat 0 0;
+  background-size: 100% 200%;
+  display: block;
+  height: 6vh;
+  margin-left: -66px;
+  padding: 0 17px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 98px;
+}
+
+.virsta-menu {
+  justify-content: space-between;
+  border: 2px solid black;
+}
+.virsta-menu ul {
+  justify-content: space-around;
+  padding: 0;
+  width: 50vw;
+  list-style: none;
+}
+.virsta-menu ul .virsta-menu-li-bold {
+  font-weight: bold;
+}
+.virsta-menu form {
+  border: 0;
+  width: 14%;
+  justify-content: space-around;
+  height: 80%;
+}
+.virsta-menu form .virsta-search__submit {
+  background: url("../img/icon/search.svg") no-repeat 0 0;
+  border: white;
+}
+.virsta-menu form .virsta-search__field {
+  width: 180px;
+}
+
+.virsta-comics {
+  background: gray;
+  width: 100%;
+  height: 40vh;
+  justify-content: space-around;
+}
+.virsta-basic {
+  display: grid;
+  grid-template: "main" 110vh "list"/55% 45%;
+}
+.virsta-basic .virsta-ul1 {
+  list-style: none;
+  grid-area: main;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.virsta-basic .virsta-ul1 li {
+  width: 26%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.virsta-basic .virsta-ul1 li .virsta-li {
+  height: 41vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: gray solid 2px;
+}
+.virsta-basic .virsta-ul1 li .virsta-li div {
+  height: 100%;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+  flex-wrap: nowrap;
+}
+.virsta-basic .virsta-ul2 {
+  height: 100%;
+  list-style: none;
+  grid-area: list;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.virsta-basic .virsta-ul2 .virsta-li-first {
+  background: #777777;
+  color: white;
+  height: 5%;
+}
+.virsta-basic .virsta-ul2 li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.virsta-basic .virsta-ul2 li hr {
+  width: 100%;
+}
+.virsta-basic .virsta-ul2 li div {
+  width: 90%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.virsta-basic .virsta-ul2 li div .virsta-span2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.virsta-film {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.virsta-film1 {
+  background: url("../img/film/Battle.jpg") no-repeat center;
+  background-size: 95%;
+}
+.virsta-film2 {
+  background: url("../img/film/Dura.jpg") no-repeat center;
+  background-size: 95%;
+}
+.virsta-film3 {
+  background: url("../img/film/Chugan.jpg") no-repeat center;
+  background-size: 95%;
+}
+.virsta-film4 {
+  background: url("../img/film/Gabrielle.jpeg") no-repeat center;
+  background-size: 95%;
+}
+.virsta-film5 {
+  background: url("../img/film/Prosnis.jpg") no-repeat center;
+  background-size: 95%;
+}
+.virsta-film6 {
+  background: url("../img/film/Stuck.jpeg") no-repeat center;
+  background-size: 95%;
+}
+
+.watch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4vw;
+  height: 3vw;
+  background: black;
+  opacity: 65%;
+}
+.watch i {
+  background: white;
+  width: 56%;
+  height: 60%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watch i img {
+  opacity: 65%;
+}
+
+.play {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.play span {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background: gray;
+}
+
+.info {
+  background: white;
+  width: 80%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.title .first {
+  color: cornflowerblue;
+  font: 14px Arial;
+  height: 5%;
+}
+.title .second {
+  color: #777777;
+  font: 10px Arial;
+  height: 5%;
+}
+
+/*# sourceMappingURL=main.css.map */
