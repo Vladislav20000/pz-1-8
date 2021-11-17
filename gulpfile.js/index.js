@@ -71,13 +71,13 @@ gulp.task('copy', async function () {
     gulp.src([
         'app/css/main.css'
     ])
-        .pipe(gulp.dest('dist/css'))
+        .pipe(gulp.dest('dist/css'));
 
     gulp.src('app/fonts/**/*')
-        .pipe(gulp.dest('dist/fonts'))
+        .pipe(gulp.dest('dist/fonts'));
 
     gulp.src('app/js/**/*')
-        .pipe(gulp.dest('dist/js'))
+        .pipe(gulp.dest('dist/js'));
 
     gulp.src('app/*.html')
         .pipe(gulp.dest('dist'));
