@@ -1,0 +1,124 @@
+.main__marvel{
+  position: relative;
+  display: grid;
+  h2{
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+.main__dc{
+  position: relative;
+  display: grid;
+  h2{
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+  }
+}
+.left__side{
+  display: grid;
+  grid-auto-flow: column;
+  margin: 10px 0 0 10px;
+  .main__items{
+    h4{
+      color: blue;
+    }
+    p{
+      font-size: 13px;
+    }
+  }
+}
+.right__side{
+  margin: 10px 20px 20px 0;
+  .right__item{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 4px 0 4px 0;
+    margin-right: 10px;
+  }
+  .right__item{
+    &:first-child{
+      background-color: black;
+      color: white;
+      padding: 10px;
+      h4{
+        margin-left: 10px;
+      }
+      p{
+        margin-right: 10px;
+      }
+    }
+    &:nth-child(3){
+      padding: 12px 0 12px 0;
+    }
+    .term{
+      margin-left: 5px;
+      display: grid;
+      grid-auto-flow: column;
+      p{
+        margin-left: 5px;
+        align-self: center;
+      }
+      h4{
+        margin: auto;
+      }
+    }
+    .disturb{
+      display: grid;
+      h4{
+        justify-self: right;
+      }
+    }
+  }
+}
+.main__items{
+  position: relative;
+  .notice{
+    position: absolute;
+    left: 3px;
+    bottom: 31%;
+    background-color: white;
+  }
+  .main__button{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 3px;
+    background-color: rgba(0, 0, 0, 0.7);
+    .play{
+      margin: auto;
+    }
+  }
+  .top__notice{
+    display: flex;
+    position: absolute;
+    background-color: rgba(0, 0, 201, 0.8);
+    right: 42px;
+    top: 4px;
+    width: 80px;
+    height: 30px;
+    padding: 0 5px 0 5px;
+    .top__comprise{
+      display: grid;
+      margin: auto;
+      grid-auto-flow: column;
+    }
+    p{
+      margin: auto;
+      color: white;
+    }
+    img{
+      margin-left: 3px;
+    }
+  }
+}

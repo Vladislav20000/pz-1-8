@@ -1,0 +1,126 @@
+.main__marvel {
+  position: relative;
+  display: grid;
+}
+.main__marvel h2 {
+  position: absolute;
+  justify-self: center;
+  align-self: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.main__dc {
+  position: relative;
+  display: grid;
+}
+.main__dc h2 {
+  position: absolute;
+  justify-self: center;
+  align-self: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.left__side {
+  display: grid;
+  grid-auto-flow: column;
+  margin: 10px 0 0 10px;
+}
+.left__side .main__items h4 {
+  color: blue;
+}
+.left__side .main__items p {
+  font-size: 13px;
+}
+
+.right__side {
+  margin: 10px 20px 20px 0;
+}
+.right__side .right__item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 4px 0 4px 0;
+  margin-right: 10px;
+}
+.right__side .right__item:first-child {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.right__side .right__item:first-child h4 {
+  margin-left: 10px;
+}
+.right__side .right__item:first-child p {
+  margin-right: 10px;
+}
+.right__side .right__item:nth-child(3) {
+  padding: 12px 0 12px 0;
+}
+.right__side .right__item .term {
+  margin-left: 5px;
+  display: grid;
+  grid-auto-flow: column;
+}
+.right__side .right__item .term p {
+  margin-left: 5px;
+  align-self: center;
+}
+.right__side .right__item .term h4 {
+  margin: auto;
+}
+.right__side .right__item .disturb {
+  display: grid;
+}
+.right__side .right__item .disturb h4 {
+  justify-self: right;
+}
+
+.main__items {
+  position: relative;
+}
+.main__items .notice {
+  position: absolute;
+  left: 3px;
+  bottom: 31%;
+  background-color: white;
+}
+.main__items .main__button {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  left: 3px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main__items .main__button .play {
+  margin: auto;
+}
+.main__items .top__notice {
+  display: flex;
+  position: absolute;
+  background-color: rgba(0, 0, 201, 0.8);
+  right: 42px;
+  top: 4px;
+  width: 80px;
+  height: 30px;
+  padding: 0 5px 0 5px;
+}
+.main__items .top__notice .top__comprise {
+  display: grid;
+  margin: auto;
+  grid-auto-flow: column;
+}
+.main__items .top__notice p {
+  margin: auto;
+  color: white;
+}
+.main__items .top__notice img {
+  margin-left: 3px;
+}
+
+/*# sourceMappingURL=other.css.map */
